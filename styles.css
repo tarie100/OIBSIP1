@@ -1,0 +1,43 @@
+.img-fluid{
+    width: 600px;
+    height: 300px;
+}
+img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: bisque;
+    height: 60px;
+}
+h1{
+    display: inline;
+}
+h1.txt{
+    text-align: center;
+}
+header img.logo{
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    padding: auto;
+}
+footer{
+    background-color: bisque
+}
+body{
+    background-color: beige;
+}
+#btn{
+    float:right;
+    margin-right: 10px;
+}
+.drop{
+    padding: 5px; font-size: 16px;
+}
