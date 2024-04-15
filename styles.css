@@ -11,12 +11,23 @@ img{
 header{
     background-color: bisque;
     height: 60px;
+    
+    
+}
+select{
+    justify-content: center;
+    display: flexs;
+    margin: 0 10px;
 }
 h1{
     display: inline;
 }
 h1.txt{
     text-align: center;
+}
+li{
+    display: inline;
+    margin-right: 10px;
 }
 header img.logo{
     border-radius: 50%;
@@ -39,5 +50,7 @@ body{
     margin-right: 10px;
 }
 .drop{
-    padding: 5px; font-size: 16px;
+    background: transparent;
+    border: none;
+    
 }

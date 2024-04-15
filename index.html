@@ -9,13 +9,26 @@
 </head>
 <body>
     <header>
-        <img src="images/Screenshot (11).png" alt="Image" class="logo">
+        <!--<img src="images/Screenshot (11).png" alt="Image" class="logo">-->
         <button id="btn" class="btn btn-primary">Contact</button>
         <button id="btn" class="btn btn-primary">Sign Up</button>
-        <select class="drop" aria-placeholder="Categories">
-          <option value="" disabled selected hidden>Categories</option>
-          <option class="category" value="category1"onclick="changeBackground('event, category1')" >Academics</option>
+        <li><select id="dropdown" class="drop" aria-placeholder="Categories">
+          <option value="" disabled selected hidden>Services</option>
+          <option class="category" value="category1"onclick="changeBackground('event, category1')" >Data Packages</option>
+          <option class="category" value="category1"onclick="changeBackground('event, category1')" >Call Options</option>
+          <option class="category" value="category1"onclick="changeBackground('event, category1')" >Text Messaging</option>
         </select>
+
+        </select>
+        </li>
+        <li><select id ="down" class="drop" aria-placeholder="Categories">
+          <option value="" disabled selected hidden>Reviews</option>
+          <option class="category" value="category1"onclick="changeBackground('event, category1')" >Some Reviews</option>
+
+        </select>
+        </li>
+        <a href="#" id="about-link">About</a>
+        <div id="info"></div>
       </header>
       <section id="hero">
         <h1 class="display-4 text-left">TelByte...Stay Connected, Stay Ahead!</h1>
@@ -23,7 +36,7 @@
       </section>
       
     
-      <section id="services" class="container">
+      <!--<section id="services" class="container">
         <h2 class="text-center">Our Services and Plans</h2>
         <div class="row">
           <div class="col-md-4">
@@ -92,13 +105,13 @@
         <h2>Ready to Get Started?</h2>
         <button class="btn btn-primary">Contact Us</button>
         <button class="btn btn-primary">Sign Up Now</button>
-      </section>
+      </section>-->
     
       <footer class="text-center">
         <p>&copy; 2024 TelByte. All rights reserved.</p>
         <p>Contact: info@telbyte.com</p>
       </footer>
-    
+      <script src="C:\Users\USER\Downloads\bootstrap-5.3.3-dist.zip\bootstrap-5.3.3-dist\js"
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       <script src="index.js"></script>
     
